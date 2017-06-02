@@ -1,0 +1,197 @@
+body {
+    position: relative;
+    background-color: #fcfcfc;
+    font-family: Roboto;
+}
+
+a {
+  color: #3b94d9;
+}
+
+.row {
+    margin: 0px;
+}
+
+
+/* Nav */
+
+nav {
+    background-color: #FAFFFD;
+    position: relative;
+}
+
+.nav-wrapper a {
+    color: #342E37;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-wrapper li {
+    transition: all 0.2s linear;
+    margin-bottom: -2px;
+}
+
+.nav-wrapper li:hover {
+    border-bottom: 2px solid #3C91E6;
+    margin-bottom: -2px;
+}
+
+
+/* Header */
+
+.header {
+    background-position: center top;
+    text-align: center;
+}
+
+.header img {
+    max-width: 25%;
+}
+
+
+/* Main */
+
+.main {
+    padding-top: 10px;
+}
+
+
+/* "Join us" message */
+
+.main .notification {
+    background-color: #FA824C;
+    text-align: center;
+}
+
+
+/* Widget Bar */
+
+.main .l3 {
+    text-align: center;
+}
+
+
+/* Blog */
+
+.main h5 {
+    text-align: center;
+}
+
+.main .blog-info {
+    text-align: center;
+}
+
+.main .determinate {
+    background-color: #7bf788;
+}
+
+.main .progress {
+    margin-top: 20px;
+}
+
+.main .blog-post {
+    padding-bottom: 30px;
+    margin: none;
+}
+
+.main .blog-info {
+    padding-bottom: 20px;
+}
+
+
+/* Footer */
+
+.page-footer {
+    background-color: #342E37;
+    color: white;
+    margin-top: 50px;
+}
+
+.page-footer a {
+    color: white;
+    transition: color .2s linear;
+}
+
+.page-footer a:hover {
+    color: #3C91E6 !important;
+}
+
+.footer-copyright {
+    background-color: #28232b !important;
+}
+
+.footer-copyright .row {
+    margin: 0;
+}
+
+/* Voting Page */
+
+.vote-main a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.vote-main img {
+  margin-top: 15px;
+}
+
+/* Policy */
+.policy-main .card-panel {
+  margin-top: 50px;
+}
+
+.policy-main h5 {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+/* Store Page */
+.store-main .card-panel {
+  margin-top: 50px;
+}
+
+.store-main h5 {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+/* Staff Page */
+.staff-main .space {
+  margin-top: 40px;
+}
+.staff-main .col {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.staff-main h4, .staff-main h5 {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+/* Mobile Stuff */
+
+@media screen and (max-width: 992px) {
+    hr {
+        visibility: hidden;
+        display: none;
+        color: transparent;
+    }
+    .header img {
+        min-width: 50%;
+    }
+    .page-footer .l4 {
+        padding-bottom: 10px;
+    }
+    .vote-main {
+      text-align: center;
+    }
+    .vote-main img {
+      padding-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .page-footer p {
+        padding-bottom: 10px;
+    }
+}
