@@ -32,3 +32,6 @@ Pre-made with a simple Privacy Policy page. All you need to do is fill in a few 
 
 [Roboto](https://fonts.google.com/specimen/Roboto) - Google Font
 
+## Extra
+- [My Site](https://www.sidengel.com)
+- [Spigot]()
