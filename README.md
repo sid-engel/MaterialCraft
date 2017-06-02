@@ -25,13 +25,12 @@ Pre-made with a simple Privacy Policy page. All you need to do is fill in a few 
 - Automatic Donation Goal %.
 - Easier to customize content.
 
-## Credits
-[Materialize](http://materializecss.com/) - CSS and JS Framework
-
-[Sticky.js](http://stickyjs.com/) - Sticky Sidebar JQuery Script
-
-[Roboto](https://fonts.google.com/specimen/Roboto) - Google Font
-
 ## Extra
 - [My Site](https://www.sidengel.com)
 - [Spigot]()
+
+## Credits
+- [Materialize](http://materializecss.com/) - CSS and JS Framework
+- [Sticky.js](http://stickyjs.com/) - Sticky Sidebar JQuery Script
+- [Roboto](https://fonts.google.com/specimen/Roboto) - Google Font
+
