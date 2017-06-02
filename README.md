@@ -26,8 +26,11 @@ Pre-made with a simple Privacy Policy page. All you need to do is fill in a few 
 - Easier to customize content.
 
 ## Extra
+##### Links
 - [My Site](https://www.sidengel.com)
 - [Spigot]()
+##### Want Something Made For You?
+Hit me up, I'll do any web development for $8.00 USD an hour. My work is generally quickly made, and clean.
 
 ## Credits
 - [Materialize](http://materializecss.com/) - CSS and JS Framework
