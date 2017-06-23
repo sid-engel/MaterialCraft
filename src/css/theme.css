@@ -1,39 +1,34 @@
-body {
-    position: relative;
-    background-color: #fcfcfc;
-    font-family: Roboto;
-}
-
-a {
-  color: #3b94d9;
+body, html {
+    background-color: #efefef;
 }
 
 .row {
-    margin: 0px;
+    margin: 0;
 }
 
+h5, ul, .blog-info, .sidebar {
+  text-align: center;
+}
 
 /* Nav */
 
 nav {
-    background-color: #FAFFFD;
-    position: relative;
+  background-color: #FAFFFD;
 }
 
 .nav-wrapper a {
-    color: #342E37;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0px 10px 0px 10px;
+    color: black;
 }
 
 .nav-wrapper li {
-    transition: all 0.2s linear;
-    margin-bottom: -2px;
+    transition: all 0.25s ease;
+    border-bottom: 2px solid transparent;
 }
 
 .nav-wrapper li:hover {
+    transition: all 0.25s ease;
     border-bottom: 2px solid #3C91E6;
-    margin-bottom: -2px;
 }
 
 
@@ -41,6 +36,7 @@ nav {
 
 .header {
     background-position: center top;
+    padding: 20px 0px 20px 0px;
     text-align: center;
 }
 
@@ -48,67 +44,30 @@ nav {
     max-width: 25%;
 }
 
-
 /* Main */
 
+.notification {
+  text-align: center;
+  background-color: #FA824C;
+}
+
 .main {
-    padding-top: 10px;
+    padding: 25px 0px 25px 0px;
 }
-
-
-/* "Join us" message */
-
-.main .notification {
-    background-color: #FA824C;
-    text-align: center;
-}
-
-
-/* Widget Bar */
-
-.main .l3 {
-    text-align: center;
-}
-
-
-/* Blog */
-
-.main h5 {
-    text-align: center;
-}
-
-.main .blog-info {
-    text-align: center;
-}
-
-.main .determinate {
-    background-color: #7bf788;
-}
-
-.main .progress {
-    margin-top: 20px;
-}
-
-.main .blog-post {
-    padding-bottom: 30px;
-    margin: none;
-}
-
-.main .blog-info {
-    padding-bottom: 20px;
-}
-
 
 /* Footer */
-
 .page-footer {
-    background-color: #342E37;
-    color: white;
-    margin-top: 50px;
+  background-color: #342E37;
+  color: white;
+}
+
+.page-footer .footer-copyright {
+  background-color: #28232B;
+  margin-top: 20px;
 }
 
 .page-footer a {
-    color: white;
+    color: #fff;
     transition: color .2s linear;
 }
 
@@ -116,82 +75,13 @@ nav {
     color: #3C91E6 !important;
 }
 
-.footer-copyright {
-    background-color: #28232b !important;
-}
-
-.footer-copyright .row {
-    margin: 0;
-}
-
-/* Voting Page */
-
-.vote-main a {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.vote-main img {
-  margin-top: 15px;
-}
-
-/* Policy */
-.policy-main .card-panel {
-  margin-top: 50px;
-}
-
-.policy-main h5 {
-  text-align: center;
-  padding-bottom: 5px;
-}
-
-/* Store Page */
-.store-main .card-panel {
-  margin-top: 50px;
-}
-
-.store-main h5 {
-  text-align: center;
-  padding-bottom: 5px;
-}
-
-/* Staff Page */
-.staff-main .space {
-  margin-top: 40px;
-}
-.staff-main .col {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.staff-main h4, .staff-main h5 {
-  text-align: center;
-  padding-bottom: 5px;
-}
-
 /* Mobile Stuff */
 
 @media screen and (max-width: 992px) {
-    hr {
-        visibility: hidden;
-        display: none;
-        color: transparent;
-    }
     .header img {
-        min-width: 50%;
+        max-width: 50%;
     }
-    .page-footer .l4 {
-        padding-bottom: 10px;
-    }
-    .vote-main {
-      text-align: center;
-    }
-    .vote-main img {
-      padding-bottom: 15px;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .page-footer p {
-        padding-bottom: 10px;
+    .footer-content {
+        padding-bottom: 20px;
     }
 }
