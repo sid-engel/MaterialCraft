@@ -6,7 +6,7 @@ body, html {
     margin: 0;
 }
 
-h5, ul, .blog-info, .sidebar {
+h4, h5, h6, ul, .blog-info, .sidebar {
   text-align: center;
 }
 
@@ -55,6 +55,9 @@ nav {
     padding: 25px 0px 25px 0px;
 }
 
+.staff-main .card-panel {
+  margin-top: -5px;
+}
 /* Footer */
 .page-footer {
   background-color: #342E37;
