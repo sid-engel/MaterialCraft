@@ -1,14 +1,15 @@
 body, html {
-    background-color: #efefef;
+  background-color: #efefef;
 }
 
 .row {
-    margin: 0;
+  margin: 0;
 }
 
 h4, h5, h6, ul, .blog-info, .sidebar {
   text-align: center;
 }
+
 
 /* Nav */
 
@@ -17,32 +18,33 @@ nav {
 }
 
 .nav-wrapper a {
-    padding: 0px 10px 0px 10px;
-    color: black;
+  padding: 0px 10px 0px 10px;
+  color: black;
 }
 
 .nav-wrapper li {
-    transition: all 0.25s ease;
-    border-bottom: 2px solid transparent;
+  transition: all 0.25s ease;
+  border-bottom: 2px solid transparent;
 }
 
 .nav-wrapper li:hover {
-    transition: all 0.25s ease;
-    border-bottom: 2px solid #3C91E6;
+  transition: all 0.25s ease;
+  border-bottom: 2px solid #3C91E6;
 }
 
 
 /* Header */
 
 .header {
-    background-position: center top;
-    padding: 20px 0px 20px 0px;
-    text-align: center;
+  background-position: center top;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
 }
 
 .header img {
-    max-width: 25%;
+  max-width: 25%;
 }
+
 
 /* Main */
 
@@ -52,13 +54,16 @@ nav {
 }
 
 .main {
-    padding: 25px 0px 25px 0px;
+  padding: 25px 0px 25px 0px;
 }
 
 .staff-main .card-panel {
   margin-top: -5px;
 }
+
+
 /* Footer */
+
 .page-footer {
   background-color: #342E37;
   color: white;
@@ -70,21 +75,28 @@ nav {
 }
 
 .page-footer a {
-    color: #fff;
-    transition: color .2s linear;
+  color: #fff;
+  transition: color .2s linear;
 }
 
 .page-footer a:hover {
-    color: #3C91E6 !important;
+  color: #3C91E6 !important;
 }
+
 
 /* Mobile Stuff */
 
 @media screen and (max-width: 992px) {
-    .header img {
-        max-width: 50%;
-    }
-    .footer-content {
-        padding-bottom: 20px;
-    }
+  .header img {
+    max-width: 50%;
+  }
+  .footer-content {
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .index-main {
+    margin: 0px 60px 0px 60px;
+  }
 }
